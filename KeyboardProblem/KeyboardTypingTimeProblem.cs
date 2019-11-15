@@ -18,15 +18,9 @@ namespace KeyboardProblem
         {
             List<Position> keyboardPositions = new List<Position>
             {
-                new Position(1, 1),
-                new Position(1, 2),
-                new Position(1, 3),
-                new Position(2, 1),
-                new Position(2, 2),
-                new Position(2, 3),
-                new Position(3, 1),
-                new Position(3, 2),
-                new Position(3, 3)
+                new Position(1, 1), new Position(1, 2), new Position(1, 3),
+                new Position(2, 1), new Position(2, 2), new Position(2, 3),
+                new Position(3, 1), new Position(3, 2), new Position(3, 3)
             };
             Dictionary<string, Position> keyboardDictionary = new Dictionary<string, Position>();
             int index = 0;
