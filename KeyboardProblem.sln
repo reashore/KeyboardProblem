@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyboardProblem", "KeyboardProblem\KeyboardProblem.csproj", "{C21F7952-2166-485D-A9CF-A37A43C8782B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyboardProblem.Tests", "KeyboardProblem.Tests\KeyboardProblem.Tests.csproj", "{00164670-4B5B-4634-881F-20EEEF1CC204}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyboardProblem.Tests", "KeyboardProblem.Tests\KeyboardProblem.Tests.csproj", "{382C0AF7-F245-4ABE-9B6A-43329EE0275D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{C21F7952-2166-485D-A9CF-A37A43C8782B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C21F7952-2166-485D-A9CF-A37A43C8782B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C21F7952-2166-485D-A9CF-A37A43C8782B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{00164670-4B5B-4634-881F-20EEEF1CC204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{00164670-4B5B-4634-881F-20EEEF1CC204}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{00164670-4B5B-4634-881F-20EEEF1CC204}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{00164670-4B5B-4634-881F-20EEEF1CC204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{382C0AF7-F245-4ABE-9B6A-43329EE0275D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{382C0AF7-F245-4ABE-9B6A-43329EE0275D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{382C0AF7-F245-4ABE-9B6A-43329EE0275D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{382C0AF7-F245-4ABE-9B6A-43329EE0275D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

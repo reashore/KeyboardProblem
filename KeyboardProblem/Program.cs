@@ -7,7 +7,12 @@ namespace KeyboardProblem
     {
         public static void Main()
         {
-            Tests.RunTests();
+            const string keyboardInput = "123456789";
+            const string keyboard = "123456789";
+            int totalTypingTime = KeyboardTypingTimeProblem.GetTotalTypingTime(keyboardInput, keyboard);
+            string message = $"Total typing time = {totalTypingTime}";
+            WriteLine(message);
+
             ReadKey();
         }
     }
