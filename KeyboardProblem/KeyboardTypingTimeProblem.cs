@@ -17,7 +17,7 @@ namespace KeyboardProblem
     {
         public static int GetTotalTypingTime(string keyboardInput, string keyboard)
         {
-            if (keyboard.Length != 0)
+            if (keyboard.Length != 9)
             {
                 throw new ArgumentException("keyboard must be 9 characters");
             }
