@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace KeyboardProblem
 {
@@ -16,6 +17,11 @@ namespace KeyboardProblem
     {
         public static int GetTotalTypingTime(string keyboardInput, string keyboard)
         {
+            if (keyboard.Length != 0)
+            {
+                throw new ArgumentException("keyboard must be 9 characters");
+            }
+
             List<Position> keyboardPositions = new List<Position>
             {
                 new Position(1, 1), new Position(1, 2), new Position(1, 3),
